@@ -64,6 +64,27 @@ body {
     top: 25%;
 }
 
+.mouth-space {
+    right: 0%;
+    top: 50%;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+}
+
+.mouth {
+    z-index: 1;
+    top: 0%;
+    right: 50%;
+    height: 80px;
+    width: 250px;
+    border-radius: 0 0 200px 200px;
+    margin: 0 auto;
+    transform: translate(50%, 50%);
+    position: absolute;
+    background-color: black;
+}
+
 footer{
     height: 0px;
     position: relative;
