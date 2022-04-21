@@ -32,15 +32,36 @@ body {
     top: 0%;
     width: 200px;
     height: 200px;
-    position: relative;
+    position: absolute;
+}
+.eye-right {
+    width: 50px;
+    height: 75px;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    top: 25%;
 }
 
 .eye-space-left {
-    left: 50%;
-    top: -50%;
+    right: 0%;
+    top: 0%;
     width: 200px;
     height: 200px;
-    position: relative;
+    position: absolute;
+}
+
+.eye-left {
+    width: 50px;
+    height: 75px;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    background-color: black;
+    right: 75%;
+    top: 25%;
 }
 
 footer{
